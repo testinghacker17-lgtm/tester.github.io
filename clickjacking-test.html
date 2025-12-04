@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clickjacking Test</title>
+</head>
+<body>
+    <h1>Clickjacking Frame Test</h1>
+
+    <p>If the application loads below, it is frameable and potentially vulnerable to clickjacking.</p>
+
+    <iframe 
+        src="https://client-application-url.com"
+        width="1000"
+        height="800"
+        style="border: 2px solid black;">
+    </iframe>
+
+</body>
+</html>
